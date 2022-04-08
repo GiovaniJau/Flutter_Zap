@@ -1,0 +1,33 @@
+name: flutter_zap
+description: Um clone do WhatsApp feito em Flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  camera: ^0.9.4+19
+  flutter_chat_bubble: ^2.0.0
+  get: ^4.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/jack.jpg
+    - assets/images/katherine.jpg
+    - assets/images/mark.jpg
+    - assets/images/micheal.jpg
+    - assets/images/susan.jpg
